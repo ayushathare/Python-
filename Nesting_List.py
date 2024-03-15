@@ -6,3 +6,5 @@ print(A)
 # Accessing a perticular list element
 
 print(A[1])
+
+print(A[1][1])
