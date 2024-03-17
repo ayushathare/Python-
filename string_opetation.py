@@ -15,10 +15,3 @@ new_string = string.replace("World","Universe")
 string1 = "Apple,Banana,Orange"
 fruits = string1.split(",")
 print(fruits)
-
-
-
-
-
-
-
