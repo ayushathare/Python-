@@ -8,7 +8,6 @@ print(string.upper())
 print(string.lower())
 print(string.strip())
 
-
 # Replacing the string Element
 new_string = string.replace("World","Universe")
 
