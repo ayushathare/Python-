@@ -9,8 +9,6 @@ class Person:
     def introduce(self):
         print(f"Hi, my name is {self.name} and I am {self.age} years old.")
 
-
-# Example usage
 person1 = Person("Alice", 30)
 person1.introduce()
 
