@@ -9,5 +9,4 @@ total_cost = 0
 
 for i in amazon_cart:
     total_cost += i[1]
-
 print(total_cost)
