@@ -4,7 +4,6 @@ A = [[1,2,3],[2,4,3],[6,5,4],[45,"Aman"]]
 print(A)
 
 # Accessing a perticular list element
-
 print (A[1])
 
 print (A[1][1])
