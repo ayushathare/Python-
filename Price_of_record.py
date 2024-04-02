@@ -34,21 +34,20 @@ class Inventory:
 def main():
     inventory = Inventory()
 
-    # Adding some sample products to the inventory
+
     inventory.add_product(Product("001", "T-Shirt", 15.99))
     inventory.add_product(Product("002", "Jeans", 29.99))
     inventory.add_product(Product("003", "Sneakers", 49.99))
 
-    # Displaying menu
+  
     inventory.display_menu()
 
-    # Prompting user for quantities
     quantities = {}
     for code in inventory.products.keys():
         quantity = int(input(f"Enter quantity for product {code}: "))
         quantities[code] = quantity
 
-    # Generating bill
+
     inventory.generate_bill(quantities)
 
 
